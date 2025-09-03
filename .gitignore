@@ -1,0 +1,419 @@
+# ======================================
+# PersonaForge.AI - Comprehensive .gitignore
+# ======================================
+
+# ==========================================
+# Python & Virtual Environment
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+.env/
+pyvenv.cfg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# ==========================================
+# Environment & Configuration
+# ==========================================
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.test
+config.ini
+config.json
+local_settings.py
+settings_local.py
+secrets.json
+credentials.json
+
+# ==========================================
+# Database Files
+# ==========================================
+*.db
+*.sqlite
+*.sqlite3
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Database backups
+*.sql
+*.dump
+backup/
+backups/
+
+# ==========================================
+# Privacy & Security
+# ==========================================
+# Encryption keys
+*.key
+*.pem
+*.p12
+*.pfx
+.encryption_key
+data/.encryption_key
+
+# API keys and tokens
+api_keys.txt
+tokens.txt
+auth_tokens.json
+
+# User data and profiles
+user_data/
+profiles/
+private/
+confidential/
+
+# LinkedIn data exports
+linkedin_exports/
+user_posts/
+scraped_data/
+
+# ==========================================
+# AI & Machine Learning
+# ==========================================
+# Model files
+*.model
+*.pkl
+*.pickle
+models/
+checkpoints/
+saved_models/
+*.h5
+*.hdf5
+*.joblib
+
+# Ollama specific
+ollama_logs/
+.ollama/
+
+# AI generated content
+generated_content/
+ai_cache/
+model_cache/
+
+# Training data
+training_data/
+datasets/
+data/training/
+data/raw/
+
+# ==========================================
+# Application Data
+# ==========================================
+# Logs
+*.log
+*.log.*
+logs/
+log/
+data/app.log
+data/error.log
+
+# Cache files
+cache/
+.cache/
+data/cache/
+__cache__/
+
+# Temporary files
+tmp/
+temp/
+temporary/
+data/temp/
+.tmp/
+
+# Generated files
+generated/
+output/
+exports/
+data/exports/
+
+# User uploads
+uploads/
+user_uploads/
+media/
+
+# ==========================================
+# System Files
+# ==========================================
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ==========================================
+# Development Tools
+# ==========================================
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Emacs
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ==========================================
+# Package Managers & Dependencies
+# ==========================================
+# npm (if using any Node.js tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+package-lock.json
+
+# ==========================================
+# Documentation & Reports
+# ==========================================
+# Sphinx documentation
+docs/_build/
+.readthedocs.yml
+
+# mkdocs documentation
+/site
+
+# ==========================================
+# Backup & Archive Files
+# ==========================================
+*.bak
+*.backup
+*.old
+*.orig
+*.save
+*.swp
+*.swo
+*.tar
+*.tar.gz
+*.tar.bz2
+*.zip
+*.7z
+*.rar
+
+# ==========================================
+# Performance & Profiling
+# ==========================================
+.prof
+*.prof
+profile_output.*
+
+# ==========================================
+# Cloud & Deployment
+# ==========================================
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Kubernetes
+*.kubeconfig
+
+# ==========================================
+# PersonaForge.AI Specific
+# ==========================================
+# User configuration
+data/user_config.json
+data/preferences.json
+
+# Content library
+data/content_library/
+data/drafts/
+data/scheduled_posts/
+
+# Analytics data
+data/analytics/
+data/metrics/
+data/reports/
+
+# Image generation output
+data/images/
+generated_images/
+visual_content/
+
+# Scheduling data
+data/schedules/
+data/calendar/
+
+# Privacy audit files
+data/privacy_audit/
+data/cleanup_logs/
+
+# Application state
+data/app_state.json
+data/session.json
+
+# Custom prompts and templates
+data/custom_prompts/
+data/templates/
+
+# Export files
+exports/
+data/exports/
+linkedin_content_export/
+
+# Installation and setup files
+install.log
+setup.log
+first_run_complete
+
+# ==========================================
+# Additional Security
+# ==========================================
+# SSH keys (just in case)
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+*.pub
+
+# GPG keys
+*.gpg
+*.asc
+
+# Certificates
+*.crt
+*.cer
+*.der
+
+# Any file containing "secret", "password", "token", etc.
+*secret*
+*password*
+*token*
+*credential*
+*private*
+
+# ==========================================
+# End of .gitignore
+# ==========================================
